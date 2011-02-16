@@ -22,6 +22,9 @@ modestmaps.js: $(JS_FILES) Makefile
 	rm -f modestmaps.js
 	cat $(JS_FILES) >> modestmaps.js
 	chmod a-w modestmaps.js
+	rm -f ../js-dci/libs/modestmaps.js
+	cat $(JS_FILES) >> ../js-dci/libs/modestmaps.js
+	chmod a-w ../js-dci/libs/modestmaps.js
 
 clean:
 	rm modestmaps.js

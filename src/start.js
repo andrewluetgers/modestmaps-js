@@ -9,15 +9,15 @@
  *
  * Versioned using Semantic Versioning (v.major.minor.patch)
  * See CHANGELOG and http://semver.org/ for more details.
- * 
+ *
  */
 
 // namespacing!
 if (!com) {
-    var com = { };
-    if (!com.modestmaps) {
-        com.modestmaps = {};
-    }
+	var com = { };
+	if (!com.modestmaps) {
+		com.modestmaps = {};
+	}
 }
 
 (function(MM) {
